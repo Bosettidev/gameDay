@@ -1,0 +1,63 @@
+html{
+    background-color: lightslategray;
+    font-style: normal;
+    color: black;
+    padding: 10px;
+}
+/* Estilos básicos para a página */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #708090; /* Fundo cinza */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.login-box {
+    background-color: dimgrey;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+.login-box h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.login-box label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-box button {
+    width: 48%;
+    padding: 10px;
+    margin: 10px 1%;
+    font-size: 16px;
+    background-color: #708090;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #556677;
+}
